@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.5"
+  version: "0.1.6"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ansible-sign/ansible_sign-${{ version }}.tar.gz
-  sha256: d1c9b5ef4329501615b18fe2bf035f63a429f7c05e653d32ac59fc01892eaf74
+  sha256: 49ddc2575297d4d6dfe1fd5f7557483c75c56e140281df4bd8c676229f00874b
 
 build:
   noarch: python
